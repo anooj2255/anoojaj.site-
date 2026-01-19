@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCI Project | Building Excellence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">MCI <span>Project</span></a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mciMenuToggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="btn open-calendar-btn"
+                        style="padding: 0.5rem 1rem; border: 1px solid var(--gold);">Book a Meeting</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Finance-Driven. Bankable. Execution-Focused.</h1>
+            <p>International Project & Development Management Platform. From concept to capital to completion.</p>
+            <a href="#" class="btn open-calendar-btn">Book a Meeting</a>
+            <p class="booking-helper-text"
+                style="color: rgba(255, 255, 255, 0.6); font-size: 0.85rem; margin-top: 1rem; letter-spacing: 0.05em; font-weight: 300;">
+                A private 1-on-1 creative session.<br>
+                Choose a time that works for you.
+            </p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-bg">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="section-title" style="text-align: left; margin-bottom: 2rem;">
+                        <h2>Company Positioning</h2>
+                        <p>Trusted interface between sponsors, lenders, governments, and EPCs.</p>
+                    </div>
+                    <ul class="about-list">
+                        <li><strong>International Platform:</strong> Focused on complex, capital-intensive international
+                            projects with strong international EPC collaborations.</li>
+                        <li><strong>Finance Coordination:</strong> Strong project finance coordination capability,
+                            engaging with DFIs, ECAs, and international banks.</li>
+                        <li><strong>Integrated Delivery:</strong> One platform covering development, execution, and
+                            finance to reduce interface and execution risk.</li>
+                    </ul>
+                </div>
+                <!-- Premium Corporate Image -->
+                <div class="about-image">
+                    <img src="corporate_meeting.png" alt="MCI Corporate Meeting Room">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Expertise</h2>
+                <p>Single point of accountability across the ongoing lifecycle.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-building fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Development Management</h3>
+                    <p>Handling feasibility studies, structuring, and obtaining necessary approvals for large-scale
+                        projects.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tasks fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Project Management</h3>
+                    <p>Design coordination and EPC oversight ensuring technical aligned with commercial decisions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-coins fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Project Finance</h3>
+                    <p>Lender engagement and financial close, utilizing non-recourse framing structures.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Value Engineering</h3>
+                    <p>Best practice cost & quality management to ensure efficient project process flow.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-city fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Infrastructure & Urban Dev</h3>
+                    <p>Expertise in infrastructure, power generation, utilities, and master plan development.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-handshake fa-2x" style="color: var(--gold); margin-bottom: 1rem;"></i>
+                    <h3>Public-Sector & PPP</h3>
+                    <p>Specialized in Public-Private Partnership developments and government compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="padding: 0;">
+        <div class="contact-info">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-details">
+                    <p><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Meydan Grandstand, Meydan Road,
+                        Dubai UAE</p>
+                    <p><i class="fas fa-phone" style="margin-right: 10px;"></i> +971 50 612 0839</p>
+                    <p><i class="fas fa-envelope" style="margin-right: 10px;"></i> info@mciproject.ae</p>
+                    <p><i class="fas fa-globe" style="margin-right: 10px;"></i> www.mciproject.ae</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MCI Project. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactivity -->
+    <!-- Calendar Modal -->
+    <div id="calendarModal" class="modal">
+        <button id="closeCalendar" class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="modal-content">
+            <div class="modal-loader"></div>
+            <iframe
+                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3uSCldIqY2J8ZMDuZDfcKwXIN3RhxJxrG-VdFSl_5ybRel0l2F_k0CMDARIXdTUMFzqLDrvG_l?gv=true"
+                width="100%" height="100%" frameborder="0" scrolling="yes" allow="camera; microphone; fullscreen">
+            </iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
